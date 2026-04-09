@@ -1,0 +1,23 @@
+# [Node.js / Expo] - 앱 관련 쓰레기통
+node_modules/
+.expo/
+dist/
+web-build/
+npm-debug.*
+
+# [Python] - 파이썬 관련 쓰레기통
+__pycache__/
+*.pyc
+venv/
+.venv/
+env/
+
+# [System] - OS가 자동 생성하는 파일
+.DS_Store
+Thumbs.db
+
+# [Security] - 내 소중한 비밀키 (보안상 절대 올리면 안 됨)
+.env
+.env.local
+firebaseConfig.js (이미 깃허브에 올릴 준비가 됐다면 제외해도 되지만, 보안이 걱정되면 추가하세요)
+firebase_key.json
